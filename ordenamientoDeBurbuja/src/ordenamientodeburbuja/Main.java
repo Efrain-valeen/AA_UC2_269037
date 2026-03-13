@@ -8,6 +8,7 @@ import java.util.Arrays;
  *
  * @author efrainvalenzuela
  */
+
 public class Main {
     
 
@@ -18,7 +19,7 @@ public class Main {
         System.out.println("Arreglo original:");
         System.out.println(Arrays.toString(numeros));
 
-        Ordenamientos.bubbleSort(numeros);
+        Ordenamientos.selectionSort(numeros); 
 
         System.out.println("Arreglo ordenado:");
         System.out.println(Arrays.toString(numeros));
